@@ -19,10 +19,17 @@ To setup the dependencies and build, run:
 npm run setup
 ```
 
-To start, run one of these:
+To start server, starting from the directory of THIS FILE, run this:
 
 ```bash
-npm run android # Run on Android Emulator
+cd backend
+npm run build
+npm run start
+```
 
-npm run ios # Run on Xcode
+To start Expo development client, starting from the directory of THIS FILE, run this:
+
+```bash
+cd frontend
+npm run start
 ```
