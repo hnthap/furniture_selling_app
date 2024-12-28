@@ -15,8 +15,6 @@ Authors:
 * Huynh Nhan Thap ([hnthap](https://github.com/hnthap))
 * Nguyen Cuong Linh
 
-* [![React][React.js]][React-url]
-
 ## Installation and setup
 
 To download source code and setup the dependencies, run:
