@@ -1,0 +1,21 @@
+{
+  "name": "furniture_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "cd backend && npm install && cd ../frontend && npm install && cd ..",
+    "all-android": "cd frontend && npm run android && cd ..",
+    "all-ios": "cd frontend && npm run ios && cd ..",
+    "all-backend": "cd backend && npm run build && npm run start && cd ..",
+    "android": "concurrently -c auto npm:all-android npm:all-backend",
+    "ios": "concurrently -c auto npm:all-ios npm:all-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.1"
+  }
+}
